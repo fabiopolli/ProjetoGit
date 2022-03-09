@@ -1,12 +1,15 @@
-Git comandos
+Git Comandos
 
 Gerar chave SSH
 ssh-keygen -C "joaopaulomoreira"
+
 Consultar a public key ssh
 cat ~/.ssh/id_rsa.pub
+
 Configurar a chave no azure
 Testar a conexão
 ssh -T git@ssh.dev.azure.com
+
 Retorno
 remote: Shell access is not supported.
 shell request failed on channel 0
@@ -14,8 +17,10 @@ shell request failed on channel 0
 
 Gerar chave HTTPS
 Configurando o git para terminal
-Abra o Git Bash e siga com os códigos abaixo 
+Abra o Terminal e siga com os códigos abaixo 
+
 Git config  —global user.name “Fabio Polli
+
 Git config  —global user.email “fabio.polli@neon.com.br”
 
 
